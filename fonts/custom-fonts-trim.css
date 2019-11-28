@@ -4,6 +4,7 @@
     url('assets/fonts/Montserrat-Regular/montserrat-regular-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Montserrat-Medium';
@@ -11,6 +12,7 @@
     url('assets/fonts/Montserrat-Medium/montserrat-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Montserrat-Bold';
@@ -18,6 +20,7 @@
     url('assets/fonts/Montserrat-Bold/montserrat-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Montserrat-SemiBold';
@@ -25,6 +28,7 @@
     url('assets/fonts/Montserrat-SemiBold/montserrat-semibold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Montserrat-SemiBoldItalic';
@@ -32,6 +36,7 @@
     url('assets/fonts/Montserrat-SemiBoldItalic/montserrat-semibolditalic-webfont.woff') format('woff');
   font-weight: 600;
   font-style: italic;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Calisto MT';
@@ -39,6 +44,7 @@
     url('assets/fonts/Calis-MTBol/CalisMTBol.woff') format('woff');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Barlow-Medium';
@@ -46,6 +52,7 @@
     url('assets/fonts/Barlow-Medium/barlow-medium-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'Barlow-Bold';
@@ -53,20 +60,22 @@
     url('assets/fonts/Barlow-Bold/barlow-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
-/*@font-face {
+@font-face {
   font-family: 'Barlow-ExtraBold';
   src: url('assets/fonts/Barlow-ExtraBold/barlow-extrabold-webfont.woff2') format('woff2'),
     url('assets/fonts/Barlow-ExtraBold/barlow-extrabold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}*/
+}
 @font-face {
   font-family: 'BarlowCondensed-Bold';
   src: url('assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold-webfont.woff2') format('woff2'),
     url('assets/fonts/BarlowCondensed-Bold/barlowcondensed-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'BarlowCondensed-Regular';
@@ -74,11 +83,20 @@
     url('assets/fonts/BarlowCondensed-Regular/BarlowCondensed-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'YanoneKaffeesatzBold';
   src: url('assets/fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.woff2') format('woff2'),
     url('assets/fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'AguafinaScriptRegular';
+  src: url('assets/fonts/AguafinaScriptRegular/AguafinaScriptRegular.woff2') format('woff2'),
+    url('assets/fonts/AguafinaScriptRegular/AguafinaScriptRegular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
