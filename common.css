@@ -5,7 +5,7 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap; 
-}
+} 
 @font-face {
   font-family: 'Montserrat-Medium';
   src: url('assets/fonts/Montserrat-Medium/montserrat-medium-webfont.woff2') format('woff2'),
@@ -18,6 +18,14 @@
   font-family: 'Montserrat-Bold';
   src: url('assets/fonts/Montserrat-Bold/montserrat-bold-webfont.woff2') format('woff2'),
     url('assets/fonts/Montserrat-Bold/montserrat-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Montserrat-BoldItalic';
+  src: url('assets/fonts/Montserrat-BoldItalic/Montserrat-BoldItalic.woff2') format('woff2'),
+    url('assets/fonts/Montserrat-BoldItalic/Montserrat-BoldItalic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -105,113 +113,113 @@
 
 
 *,*:focus,.btn,.btn:focus {
-    outline: 0!important;
-    text-decoration: none
+  outline: 0!important;
+  text-decoration: none
 }
 a,button,input {
-    outline: 0;
-    border: 0;
-    -ms-transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    transition: all .3s ease
+  outline: 0;
+  border: 0;
+  -ms-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease
 }
 a,a:hover,a:focus,button:hover,button:focus {
-    text-decoration: none;
-    outline: 0
+  text-decoration: none;
+  outline: 0
 }
 body {
-    background: #fff;
-    color: #000;
-    font-size: 22px;
-    line-height: 1.2;
-    font-family: 'Montserrat-Regular';
-    background: url(assets/images/body-bg.jpg)
+  background: #fff;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.2;
+  font-family: 'Montserrat-Regular';
+  background: url(assets/images/body-bg.jpg)
 }
 img {
-    max-width: 100%;
-    height: auto
+  max-width: 100%;
+  height: auto
 }
 .ulc {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 .overlay-link {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10
 }
 .container {
-    max-width: 1200px;
-    width: 100%
+  max-width: 1200px;
+  width: 100%
 }
 .hide-md {
-    display: block!important
+  display: block!important
 }
 .show-md {
-    display: none!important
+  display: none!important
 }
 
 .hide-sm {
-    display: block!important
+  display: block!important
 }
 .show-sm {
-    display: none!important
+  display: none!important
 }
 .hide-xs {
-    display: block!important
+  display: block!important
 }
 .show-xs {
-    display: none!important
+  display: none!important
 }
 p { margin-bottom: 26px }
 a { word-wrap: break-word }
-
+strong { font-weight:normal }
 .plr-30 {
-    padding-left: 30px!important;
-    padding-right: 30px!important
+  padding-left: 30px!important;
+  padding-right: 30px!important
 }
 .plr-20 {
-    padding-left: 20px!important;
-    padding-right: 20px!important
+  padding-left: 20px!important;
+  padding-right: 20px!important
 }
 .plr-10 {
-    padding-left: 10px!important;
-    padding-right: 10px!important
+  padding-left: 10px!important;
+  padding-right: 10px!important
 }
 .plr-5{
-    padding-left: 5px!important;
-    padding-right: 5px!important
+  padding-left: 5px!important;
+  padding-right: 5px!important
 }
 .fl-page-bdy-controller{
-    max-width: 1170px;
-    margin: 0 auto;
-    background: #fff;
-    -webkit-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
-    -moz-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
-    box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1)
+  max-width: 1170px;
+  margin: 0 auto;
+  background: #fff;
+  -webkit-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
+  -moz-box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1);
+  box-shadow: 0 5px 12px 0 rgba(180, 179, 179, 1)
 }
 h1 {
-    font-size: 80px
+  font-size: 80px
 }
 h2 {
-    font-size: 60px
+  font-size: 60px
 }
 h3 {
-    font-size: 55px
+  font-size: 55px
 }
 h4 {
-    font-size: 40px
+  font-size: 40px
 }
 h5 {
     
 }
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
-    margin-top: 0;
-    line-height: 1.2;
+  margin-top: 0;
+  line-height: 1.2;
 } 
 
 
