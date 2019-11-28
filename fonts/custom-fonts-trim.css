@@ -81,4 +81,5 @@
     url('assets/fonts/YanoneKaffeesatzBold/YanoneKaffeesatzBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
