@@ -1,5 +1,6 @@
 .vr-secret-lies-sec-wrp{
 	position: relative;
+	overflow: hidden;
 }
 .vr-secret-lies-head{
 	background-repeat: no-repeat !important;
@@ -33,6 +34,8 @@
 .vr-Biotin-Collagen-sec-wrp{
 	padding-top: 40px;
 	padding-bottom: 10px;
+	position: relative;
+	overflow: hidden;
 }
 .vr-Biotin-Collagen-head{
 	text-align: center;
@@ -123,16 +126,23 @@ span.fl-txt-line-bg{
 	margin-right: -25px;
 	margin-left: -25px;
 }
-.vr-vita-rose-sec-wrp .vr-Biotin-Collagen-bdr strong{
-	background: #fff;
-	margin-top: -65px;
+.vr-vita-rose-sec-wrp{
+	position: relative;
+	z-index: 2;
+	overflow: hidden;
+}
+.vr-vita-rose-sec-wrp .vr-Biotin-Collagen-bdr strong {
+    background: #fff;
+    margin-top: -65px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 .vr-vita-rose-head h3{
 	margin: 0;
 	color: #fff;
 	font-family: 'YanoneKaffeesatzBold';
 	text-align: center;
-	padding-bottom: 90px;
+	padding-bottom: 95px;
 }
 
 .vr-vita-rose-sec-wrp{
@@ -183,6 +193,12 @@ span.fl-txt-line-bg{
 	color: #fff;
 }
 
+.vr-gotu-kola-sec-wrp{
+	margin-top: -10px;
+}
+.vr-gotu-kola-sec-wrp .col-sm-12{
+	position: static;
+}
 .vr-gotu-kola-sec-wrp .vr-secret-lies-head{
 	margin-bottom: 0;
 }
@@ -240,5 +256,27 @@ span.fl-txt-line-bg{
 	display: inline-block;
 	vertical-align: baseline;
 	font-family: 'Montserrat-Bold';
+}
+.vr-Biotin-Collagen-img{
+	position: relative;
+	z-index: 3;
+}
+.ring-bg-5 {
+    position: absolute;
+    right: -275px;
+    top: -85px;
+    z-index: 0;
+}
+.ring-bg-6 {
+    position: absolute;
+    right: -215px;
+    bottom: 40px;
+    z-index: 0;
+}
+.ring-bg-7 {
+    position: absolute;
+    right: -205px;
+    top: -5px;
+    z-index: 0;
 }
 
