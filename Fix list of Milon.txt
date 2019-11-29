@@ -5,7 +5,7 @@ Desktop
 	ai circle ta aro left a asbe
 2. https://prnt.sc/q3zpcq
 	i) ai img ta center a hobe.
-	ii) r img tate padding top 5px daw
+	ii) r img tate padding top 5px daw -----------fix hoyni
 
 3. https://www.screencast.com/t/USbeAyHqeqAn
 	amon hobe. ai img tateo padding top 5px daw
@@ -18,7 +18,7 @@ Desktop
 6. https://www.screencast.com/t/gobFFv9XXK7
 	circle ta ai nich diye jabe
 
-7. https://www.screencast.com/t/hbc7DKsq7
+7. https://www.screencast.com/t/hbc7DKsq7  --------fix hoyni
 	bg size cover bolle img ar shape ta kharap hoye jasche.
 
 	background-repeat: repeat-x !important;
@@ -45,4 +45,13 @@ Desktop
 13. https://www.screencast.com/t/SYoHOaD9VKP
 	ai circle ta 'And; ar pas diye ghurbe
 
-14.
+
+
+Responsive
+------------------
+1. https://www.screencast.com/t/LTrtVkm9iwU
+	ai grd gulor responsive idea ta amar section thake niye fix korio
+2. https://www.screencast.com/t/WFkso2d3oZTz
+	img ta haray geche
+3. https://www.screencast.com/t/FA2a9vPJ
+	575px a ai img ta aktu choto kore yellow ar width ta komay daw.
