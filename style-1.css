@@ -263,16 +263,26 @@ header.fl-hdr {
 	padding-right: 60px;
 }
 .ring-bg-1 {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
     position: absolute;
     right: -225px;
-    top: 264px;
+    top: 243px;
     z-index: 1;
+    width: 426px;
+    height: 426px;
 }
 .ring-bg-2 {
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: cover !important;
     position: absolute;
     left: -241px;
     bottom: 137px;
     z-index: 1;
+    width:426px;
+    height:426px;
 }
 
 .fl-product-display-sec{
