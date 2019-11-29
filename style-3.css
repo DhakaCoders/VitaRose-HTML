@@ -24,6 +24,9 @@
     padding: 0 28px 50px;
     position: relative;
     margin-bottom: 65px;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
 }
 .btm-wave-img{
     position: absolute;
@@ -67,6 +70,7 @@
     align-items: center;
     justify-content: left;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 .hh-accordion-title:after{
     content: "";
@@ -111,7 +115,7 @@
     font-style: normal;
     font-family: 'Montserrat-BoldItalic';
     display: block;
-    padding: 5px 5px 0 20px;
+    padding: 10px 0 10px 20px;
     font-size: 22px;
     line-height: 25px;
 }
@@ -189,10 +193,19 @@
 
 
 
-.fl-risk-free-des-controller{
+.fl-risk-free-des-controller {
     border: 6px solid #089147;
     padding: 28px 25px 0 27px;
     border-radius: 15px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+.fl-risk-free-des{
+    order: 1;
+}
+.fl-risk-free-des-rgt-img{
+    order: 2;
 }
 .fl-risk-free-des{
     float: left;
@@ -233,14 +246,27 @@
 .sections-lft-round-img{
     position: absolute;
     z-index: 1;
-    left: -150px;
-    bottom: 30%;
+    left: -213px;
+    bottom: 340px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;
+}
+.sections-lft-round-img img{
+    width: 100%;
 }
 .fl-pkg-section,
-.fl-ftr-top-sec{
+.fl-ftr-top-sec,
+.hundred-percentage-sec-1{
     position: relative;
     z-index: 2;
 }
+.hundred-percentage-sec-1-ctlr .sections-lft-round-img{
+    bottom: initial;
+    top: 515px;
+}
+
+
 
 .fl-pkg-sec-ftr-des{
     padding-top: 65px;
@@ -577,12 +603,24 @@
     .show-md{
         display: block!important;
     }
-    
+    .hh-accordion-des-grd-item{
+        min-height: 373px;
+    }
 }
 
 
 @media(max-width: 1023px){
-    
+    .full-width-1023{
+        width: 100%!important;
+    }
+    .smile-img-01,
+    .hundred-percentage-img-01{
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .hundred-percentage-img-01 {
+        padding-top: 10px;
+    }
 }
 
 
@@ -607,7 +645,38 @@
     .fl-pkg-grd-controller > ul > li:nth-child(2) .fl-pkg-grd-col-btm-bdr {
         margin-top: 0;
     }
-
+    .fl-faq-section{
+        margin-bottom: 20px;
+    }
+    .fl-risk-free-des-controller{
+        display: block;
+    }
+    .fl-risk-free-des-rgt-img{
+        width: 100%;
+        text-align: center;
+    }
+    .fl-risk-free-des{
+        width: 100%;
+        padding-right: 0;
+    }
+    .hh-accordion-des-grd-ctlr ul li{
+        width: 100%;
+    }
+    .hh-accordion-des-grd-item{
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 330px;
+    }
+    .hh-accordion-title em{
+        font-size: 20px;
+    }
+    .hh-accordion-title em br{
+        display: none;
+    }
+    .fl-risk-free-des-rgt-img img{
+        margin-top: 0;
+    }
 }
 
 
@@ -624,7 +693,20 @@
     .fl-ftr-top-sec .thank-you-line strong{
         font-size: 20px;
     }
-
+    .sections-lft-round-img{
+        left: -140px;
+        width: 280px;
+        height: 280px;
+    }
+    .hundred-percentage-sec-1 {
+        padding-bottom: 45px;
+    }
+    .hh-accordion-title{
+        padding-right: 80px;
+    }
+    .hh-accordion-title:after{
+        right: 29px;
+    }
 }
 
 
@@ -639,7 +721,55 @@
     .fl-creditcards{
         padding-left: 0;
     }
+    .fl-risk-free-des-controller{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .fl-des-normal em {
+        padding-top: 5px;
+        font-size: 33px;
+    }
 
+    .hh-accordion-title em {
+        font-size: 18px;
+        padding-left: 15px;
+    }
+    .hh-accordion-title{
+        padding-left: 40px;
+    }
+    .hh-accordion-title span {
+        width: 40px;
+        font-size: 43px;
+    }
+    .hh-accordion-title:after{
+        width: 18px;
+        background-size: 100% auto!important;
+    }
+    .hh-accordion-title {
+        padding-right: 65px;
+    }
+    .hh-accordion-title:after {
+        right: 23px;
+    }
+    .fl-faq-section{
+        padding-bottom: 40px;
+    }
+    .hh-accordion-des-list-item{
+        padding: 10px 25px 10px 45px;
+    }
+    .hh-accordion-des-list-item i{
+        width: 45px;
+    }
+    .hh-accordion-des-list-item i img{
+        width: 26px;
+    }
+    .hh-accordion-des-grd-ctlr ul li{
+        padding-bottom: 35px;
+    }
+    .hh-accordion-des-grd-item{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 
