@@ -397,9 +397,9 @@ span.fl-txt-line-bg{
 	.vr-vita-rose-content ul li span {
 	    background-position: left 12px top 18px;
 	}
-	.vr-vita-rose-content ul li:nth-child(2) p,
-	.vr-vita-rose-content ul li:nth-child(1) p{
+	.vr-vita-rose-content ul li p{
 		padding-top: 12px;
+		padding-left: 15px;
 	}
 	.vr-gotu-kola-sec-wrp .vr-Biotin-Collagen-bdr strong {
 	    padding-left: 20px;
@@ -443,6 +443,14 @@ span.fl-txt-line-bg{
 	}
 	.vr-gotu-kola-item-wrp ul li:last-child{
 		padding-bottom: 0;
+	}
+	.vr-vita-rose-content ul li:nth-child(2) p,
+	.vr-vita-rose-content ul li:nth-child(1) p{
+		padding-top: 12px;
+	}
+	.vr-vita-rose-content ul li p{
+		padding-top: 0;
+		padding-left: 18px;
 	}
 
 
