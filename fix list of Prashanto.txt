@@ -1,0 +1,10 @@
+1. https://www.screencast.com/t/l21PeSZJh1
+  ai heading ar line-height ata daw
+2. https://www.screencast.com/t/73AZOQSm
+ space besi hobe hobe ai khane. &nbsp; use korte paro
+3. https://www.screencast.com/t/CebBrBaKW
+  i) ai img ta crop na kore full img tai use kore dekho . thik thake kina.
+  amar section amon akta bg paba. oita dekhe bg property css gulo dite paro
+  ii) https://www.screencast.com/t/MoueLo4n
+  upore aktu green bg buja jasche
+  ii) ai heading ar line-height 1  daw
