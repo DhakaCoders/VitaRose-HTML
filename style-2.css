@@ -122,9 +122,8 @@ span.fl-txt-line-bg {
     margin-right: -14px;
 }
 .vr-vita-rose-head{
-	background-repeat: no-repeat !important;
-	background-position: center center !important;
-	background-size: cover !important;
+	background-repeat:repeat-x !important;
+	background-position: top center!important;
 	padding: 30px 15px 0;
 	text-align: center;
 	margin-right: -25px;
@@ -464,6 +463,9 @@ span.fl-txt-line-bg {
 		padding-top: 0;
 		padding-left: 18px;
 	}
+	.vr-vita-rose-head h3 {
+	    padding-bottom: 80px;
+	}
 
 
 	
@@ -547,6 +549,9 @@ span.fl-txt-line-bg {
 	}
 	.vr-gotu-kola-item-inr span img {
 	    margin-top: -80px;
+	}
+	.vr-vita-rose-head h3 {
+	    padding-bottom: 70px;
 	}
 	
 
