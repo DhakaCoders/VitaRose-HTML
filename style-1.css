@@ -142,7 +142,7 @@ header.fl-hdr {
     margin-bottom: 10px;
 }
 .fl-doctor-intro-sec {
-    padding: 52px 0 30px;
+    padding: 52px 0 35px;
     background: #fff;
 }
 .fl-doctor-intro-twopart {
@@ -171,6 +171,7 @@ header.fl-hdr {
 }
 .fl-shiny-hair-sec h3{
 	font-family: 'YanoneKaffeesatzBold';
+    line-height: 1;
 }
 
 .fl-shiny-hair-sec span{
@@ -185,7 +186,7 @@ header.fl-hdr {
 	position: relative;
 }
 .fl-shiny-hair-block-1-hdr{
-	padding:0 15px 18px;
+	padding:0 15px 25px;
 }
 .fl-shiny-hair-block-1-twopart{
 	position: relative;
@@ -285,15 +286,15 @@ header.fl-hdr {
 	position: relative;
 }
 .fl-product-display-hdr {
-	background-repeat: no-repeat !important;
-	background-position: center center !important;
-	background-size: cover !important;
+	background-repeat: repeat-x !important;
+    background-position: top center !important;
 	font-family: 'YanoneKaffeesatzBold';
 	position: relative;
-	margin-left: -25px;
-	margin-right: -25px;
+    margin: -1px -25px 35px;
 	padding: 27px 20px 27px;
-	margin-bottom: 35px;
+}
+.fl-product-display-hdr h3{
+    line-height: 1;
 }
 .fl-product-display-big-img{
 	padding-bottom:12px ;
