@@ -13,20 +13,21 @@
 Responsive
 -----------------
 1. https://www.screencast.com/t/jhfVttkPb
-	ai error ta fix koro
+	ai error ta fix koro --done
 2. https://www.screencast.com/t/ZnRx3AfeXj
-    text lage jasche
+    text lage jasche --done
 
 3. https://www.screencast.com/t/DLqxha0LxH
 	black and green text ak line a thaka jabena. 
-	greeen text k display block daw
+	greeen text k display block daw --done
 4.https://www.screencast.com/t/5C6Q8X482dA
 	1023px a padding left and right 20px; daw
-	pore niche 15px lagle dite paro. but 10 kharap lageteche
+	pore niche 15px lagle dite paro. but 10 kharap lageteche --done
 
-	desktop thakei 20 dite paro
+	desktop thakei 20 dite paro >>> br use kori ni tai text break thik hoina
+
 5. https://www.screencast.com/t/GOI9HpzS
-	575 a ai text ta center a rakho
+	575 a ai text ta center a rakho --done
 6. https://www.screencast.com/t/TC2zrdI4qC
-	ai white text tar responsive kora hoyni
+	ai white text tar responsive kora hoyni --done
 7. 

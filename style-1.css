@@ -173,7 +173,8 @@ header.fl-hdr {
 	font-family: 'YanoneKaffeesatzBold';
     line-height: 1;
 }
-.fl-shiny-hair-sec span{
+.fl-shiny-hair-sec h3 span{
+    display: block;
 	color:#089047;
 }
 .fl-shiny-hair-sec p:last-child{
@@ -346,6 +347,9 @@ header.fl-hdr {
     .special-offer-dsc {
         padding: 45px 455px 25px 0;
     }
+    .fl-product-display-big-img h4 span {
+        font-size: 28px;
+    }
 } 
 
 @media(max-width: 1023px){
@@ -378,11 +382,12 @@ header.fl-hdr {
         padding: 0;
     }
     .fl-shiny-hair-block-2-hdr {
-        padding: 10px 10px 20px;
+        padding: 10px 20px 20px;
     }
-.ring-bg-1, .ring-bg-2{
-    display: none;
-}
+    .ring-bg-1, 
+    .ring-bg-2{
+        display: none;
+    }
 
 }
 
@@ -401,6 +406,9 @@ header.fl-hdr {
     }
     .fl-shiny-hair-block-2-bq {
         padding: 18px 15px;
+    }
+    .fl-shiny-hair-block-2-hdr {
+        padding: 10px 15px 20px;
     }
 }
 
@@ -429,6 +437,9 @@ header.fl-hdr {
     }
     .special-offer-dsc > p {
         font-size: 22px;
+    }
+    .fl-product-display-big-img h4 span {
+        font-size: 24px;
     }
 }
 
@@ -459,6 +470,9 @@ header.fl-hdr {
     }
     .fl-product-display-hdr {
         padding: 18px 15px 10px;
+    }
+    .fl-shiny-hair-block-2-bq span {
+        float: none;
     }
 }
 
@@ -499,7 +513,9 @@ header.fl-hdr {
 }
 
 @media(max-width: 359px){
-
+    .fl-shipping h4 {
+        font-size: 14px;
+    }
 }
 
 
