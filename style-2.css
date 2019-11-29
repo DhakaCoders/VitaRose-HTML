@@ -153,6 +153,7 @@ span.fl-txt-line-bg {
 .vr-vita-rose-sec-wrp{
 	background-repeat: repeat-x !important;
     background-position: center top !important;
+    background-size: cover;
 	padding-bottom: 20px;
 }
 .vr-vita-rose-content {
@@ -425,6 +426,13 @@ span.fl-txt-line-bg {
 	}
 	.vr-all-natural-dsc {
 	    padding-right: 0;
+	}
+	.ring-bg-5,
+	.ring-bg-6,
+	.ring-bg-7,
+	.ring-bg-8,
+	.ring-bg-9{
+		display: none;
 	}
 
 }
