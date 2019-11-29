@@ -173,20 +173,18 @@ header.fl-hdr {
 	font-family: 'YanoneKaffeesatzBold';
     line-height: 1;
 }
-
 .fl-shiny-hair-sec span{
 	color:#089047;
 }
 .fl-shiny-hair-sec p:last-child{
     margin-bottom: 0;
 }
-
 .fl-shiny-hair-block-1{
 	padding-bottom: 38px;
 	position: relative;
 }
 .fl-shiny-hair-block-1-hdr{
-	padding:0 15px 25px;
+	padding:0 0 25px;
 }
 .fl-shiny-hair-block-1-twopart{
 	position: relative;
@@ -197,7 +195,6 @@ header.fl-hdr {
 	float: right;
 	padding: 30px 0 40px;
 }
-
 .fl-shiny-hair-block-1-twopart .fl-shiny-hair-des{
 	width:55%;
 	float: left;
@@ -288,10 +285,11 @@ header.fl-hdr {
 .fl-product-display-hdr {
 	background-repeat: repeat-x !important;
     background-position: top center !important;
+    background-size: cover !important;
 	font-family: 'YanoneKaffeesatzBold';
 	position: relative;
     margin: -1px -25px 35px;
-	padding: 27px 20px 27px;
+	padding: 35px 20px 30px;
 }
 .fl-product-display-hdr h3{
     line-height: 1;
@@ -345,13 +343,46 @@ header.fl-hdr {
 
 
 @media(max-width: 1199px){
-.special-offer-dsc {
-    padding: 45px 455px 25px 0;
-}
+    .special-offer-dsc {
+        padding: 45px 455px 25px 0;
+    }
 } 
 
 @media(max-width: 1023px){
-
+    .fl-doctor-intro-img {
+        width: 100%;
+        float: left;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .fl-doctor-intro-rgt-des {
+        width: 100%;
+        float: left;
+        padding:0;
+    }
+    .fl-product-display-tow-part .fl-pro-des-img,
+    .fl-shiny-hair-block-1-twopart .fl-shiny-hair-img,
+    .fl-shiny-hair-block-2-twopart .fl-shiny-hair-img,
+    .fl-shiny-hair-block-3-twopart .fl-shiny-hair-img {
+        width: 100%;
+        float: left;
+        padding: 0 0 25px;
+        text-align: center;
+    }
+    .fl-product-display-tow-part .fl-pro-des,
+    .fl-shiny-hair-block-1-twopart .fl-shiny-hair-des,
+    .fl-shiny-hair-block-2-twopart .fl-shiny-hair-des,
+    .fl-shiny-hair-block-3-twopart .fl-shiny-hair-des {
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    .fl-shiny-hair-block-2-hdr {
+        padding: 10px 10px 20px;
+    }
+.ring-bg-1, .ring-bg-2{
+    display: none;
+}
 
 }
 
@@ -365,18 +396,40 @@ header.fl-hdr {
     .hdr-logo {
         max-width: 185px;
     }
+    .special-offer-dsc {
+        padding: 45px 348px 25px 0;
+    }
+    .fl-shiny-hair-block-2-bq {
+        padding: 18px 15px;
+    }
 }
 
 @media (max-width:830px){
     .fl-shipping h4 {
         font-size: 16px
     }
-
+    .special-offer-dsc {
+        padding: 40px 260px 25px 0;
+    }
 }
 
 @media(max-width: 767px){
-
-
+    .fl-shiny-hair-block-2-bq p {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+    .fl-shiny-hair-block-2-bq span {
+        font-size: 20px;
+    }
+    .special-offer-dsc {
+        padding: 30px 0 25px;
+    }
+    .special-offer-dsc > strong {
+        font-size: 22px;
+    }
+    .special-offer-dsc > p {
+        font-size: 22px;
+    }
 }
 
 @media(max-width: 639px){
@@ -394,12 +447,19 @@ header.fl-hdr {
     .hdr-logo {
         max-width: 150px;
     }
-
+    .fl-shiny-hair-block-2-bq {
+        border: 3px solid #089147;
+        border-radius: 15px;
+    }
 }
  
 @media(max-width: 575px){
-
-
+    .fl-shiny-hair-sec h3 br{
+        display: none;
+    }
+    .fl-product-display-hdr {
+        padding: 18px 15px 10px;
+    }
 }
 
 @media(max-width: 479px){
