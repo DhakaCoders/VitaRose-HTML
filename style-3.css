@@ -24,6 +24,9 @@
     padding: 0 28px 50px;
     position: relative;
     margin-bottom: 65px;
+    background-repeat: no-repeat!important;
+    background-position: center center!important;
+    background-size: cover!important;
 }
 .btm-wave-img{
     position: absolute;
@@ -67,6 +70,7 @@
     align-items: center;
     justify-content: left;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 .hh-accordion-title:after{
     content: "";
@@ -193,6 +197,7 @@
     border: 6px solid #089147;
     padding: 28px 25px 0 27px;
     border-radius: 15px;
+    background: #fff;
 }
 .fl-risk-free-des{
     float: left;
@@ -233,14 +238,26 @@
 .sections-lft-round-img{
     position: absolute;
     z-index: 1;
-    left: -150px;
-    bottom: 30%;
+    left: -213px;
+    bottom: 340px;
+    width: 426px;
+    height: 426px;
+}
+.sections-lft-round-img img{
+    width: 100%;
 }
 .fl-pkg-section,
-.fl-ftr-top-sec{
+.fl-ftr-top-sec,
+.hundred-percentage-sec-1{
     position: relative;
     z-index: 2;
 }
+.hundred-percentage-sec-1-ctlr .sections-lft-round-img{
+    bottom: initial;
+    top: 515px;
+}
+
+
 
 .fl-pkg-sec-ftr-des{
     padding-top: 65px;
