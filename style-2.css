@@ -108,7 +108,7 @@ span.vr-bdr-btm:before {
     display: inline-block;
     vertical-align: baseline;
 }
-span.fl-txt-line-bg{
+span.fl-txt-line-bg {
     background-size: 100% 100%!important;
     background-repeat: no-repeat!important;
     background-position: center center;
@@ -117,8 +117,8 @@ span.fl-txt-line-bg{
     vertical-align: baseline;
     font-family: 'Montserrat-Bold';
     color: #000;
-    padding: 0 14px 1px 14px;
-    margin-left: -14px;
+    padding: 0 14px 1px 10px;
+    margin-left: -10px;
     margin-right: -14px;
 }
 .vr-vita-rose-head{
@@ -140,6 +140,7 @@ span.fl-txt-line-bg{
     margin-top: -65px;
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 8px;
 }
 .vr-vita-rose-head h3{
 	margin: 0;
@@ -150,10 +151,9 @@ span.fl-txt-line-bg{
 }
 
 .vr-vita-rose-sec-wrp{
-	background-repeat: no-repeat !important;
-	background-position: center center !important;
-	background-size: cover !important;
-	padding-bottom: 32px;
+	background-repeat: repeat-x !important;
+    background-position: center top !important;
+	padding-bottom: 20px;
 }
 .vr-vita-rose-content {
     padding-top: 50px;
@@ -222,19 +222,17 @@ span.fl-txt-line-bg{
 .vr-gotu-kola-sec-wrp .vr-secret-lies-head{
 	margin-bottom: 0;
 }
-.vr-gotu-kola-sec-wrp .vr-Biotin-Collagen-bdr strong{
-	padding-left: 35px;
-	padding-right: 35px;
-	color: #015225;
-	max-width: 1026px;
-	width: 100%;
+.vr-gotu-kola-sec-wrp .vr-Biotin-Collagen-bdr strong {
+    padding-left: 35px;
+    padding-right: 35px;
+    color: #015225;
+    max-width: 1026px;
+    width: 100%;
+    padding-top: 10px;
 }
 .vr-gotu-kola-content{
 	padding-top: 40px;
 }
-/*.vr-gotu-kola-item-wrp{
-	padding-top: 125px;
-}*/
 .vr-gotu-kola-sec-wrp .vr-Biotin-Collagen-bdr{
 	padding-bottom: 20px;
 }
@@ -260,7 +258,7 @@ span.fl-txt-line-bg{
 	padding-left: 33px;
 	padding-right: 33px;
 	padding-bottom: 20px;
-	height: 340px;
+	height: 320px;
 	color: #fff;
 	border-radius: 20px;
 }
@@ -290,15 +288,18 @@ span.fl-txt-line-bg{
 .vr-Biotin-Collagen{
 	padding-right: 10px;
 }
+.plr-tp-5{
+	padding-top: 5px;
+}
 .ring-bg-5 {
     position: absolute;
-    right: -265px;
+    right: -240px;
     top: -85px;
     z-index: 0;
 }
 .ring-bg-6 {
     position: absolute;
-    right: -215px;
+    right: -190px;
     bottom: 40px;
     z-index: 0;
 }
@@ -310,9 +311,15 @@ span.fl-txt-line-bg{
 }
 .ring-bg-8 {
     position: absolute;
-    left: -205px;
-    top: 0;
+    left: -232px;
+    top: -13px;
     z-index: 0;
+}
+.ring-bg-9 {
+    position: absolute;
+    left: -210px;
+    bottom: -210px;
+    z-index: -1;
 }
 .vr-all-natural-sec-wrp {
     position: relative;
