@@ -674,6 +674,9 @@
     .hh-accordion-title em br{
         display: none;
     }
+    .fl-risk-free-des-rgt-img img{
+        margin-top: 0;
+    }
 }
 
 
