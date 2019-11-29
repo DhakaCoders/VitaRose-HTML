@@ -193,11 +193,19 @@
 
 
 
-.fl-risk-free-des-controller{
+.fl-risk-free-des-controller {
     border: 6px solid #089147;
     padding: 28px 25px 0 27px;
     border-radius: 15px;
     background: #fff;
+    display: flex;
+    align-items: center;
+}
+.fl-risk-free-des{
+    order: 1;
+}
+.fl-risk-free-des-rgt-img{
+    order: 2;
 }
 .fl-risk-free-des{
     float: left;
@@ -624,6 +632,17 @@
     .fl-pkg-grd-controller > ul > li:nth-child(2) .fl-pkg-grd-col-btm-bdr {
         margin-top: 0;
     }
+    .fl-risk-free-des-controller{
+        display: block;
+    }
+    .fl-risk-free-des-rgt-img{
+        width: 100%;
+        text-align: center;
+    }
+    .fl-risk-free-des{
+        width: 100%;
+        padding-right: 0;
+    }
 
 }
 
@@ -655,6 +674,10 @@
 @media(max-width: 575px){
     .fl-creditcards{
         padding-left: 0;
+    }
+    .fl-risk-free-des-controller{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
 }
