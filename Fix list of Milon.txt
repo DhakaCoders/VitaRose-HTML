@@ -1,0 +1,48 @@
+Desktop
+---------------------
+
+1. https://www.screencast.com/t/jzbuMmEZhM
+	ai circle ta aro left a asbe
+2. https://prnt.sc/q3zpcq
+	i) ai img ta center a hobe.
+	ii) r img tate padding top 5px daw
+
+3. https://www.screencast.com/t/USbeAyHqeqAn
+	amon hobe. ai img tateo padding top 5px daw
+
+4. https://www.screencast.com/t/0hJmj7aZ
+	img ta right a hobe. parent a text-align right dite paro
+
+5. https://www.screencast.com/t/u2qa5sK4Sd
+	d text ta dhake jasche
+6. https://www.screencast.com/t/gobFFv9XXK7
+	circle ta ai nich diye jabe
+
+7. https://www.screencast.com/t/hbc7DKsq7
+	bg size cover bolle img ar shape ta kharap hoye jasche.
+
+	background-repeat: repeat-x !important;
+    background-position: center top !important;
+    ai 2 ta rakho just
+
+    r img ta new kore kato . bcoz j img ta use korcho setar height kom
+
+8. https://www.screencast.com/t/ft7ejtjD24U
+	top a aktu gap kom hobe
+
+9.https://www.screencast.com/t/K7P2rgqjX
+	ai gap ta aktu kome hobe maybe
+
+10. https://www.screencast.com/t/lOWifmpta
+	ai round img ta missing
+
+11. https://www.screencast.com/t/6CwqVZqU0yr
+	top gap ta aktu kom hobe maybe. valo kore check korle halka buja jay
+
+12. https://www.screencast.com/t/79rBHYm3xbQF
+	gap besi hoiche
+
+13. https://www.screencast.com/t/SYoHOaD9VKP
+	ai circle ta 'And; ar pas diye ghurbe
+
+14.
