@@ -449,7 +449,7 @@ span.fl-txt-line-bg {
 		line-height: 65px;
 	}
 	.vr-gotu-kola-item-wrp ul li {
-	    width: 50%;
+	    width: 100%;
 	    float: left;
 	    padding: 120px 10px 0;
 	}
@@ -466,6 +466,15 @@ span.fl-txt-line-bg {
 	}
 	.vr-vita-rose-head h3 {
 	    padding-bottom: 80px;
+	}
+	.vr-gotu-kola-item-inr {
+	    max-width: 350px;
+	    width: 100%;
+	    margin: 0 auto;
+	    height: auto;
+	}
+	.vr-gotu-kola-item-wrp {
+	    padding-bottom: 30px;
 	}
 
 
@@ -493,9 +502,6 @@ span.fl-txt-line-bg {
 	}
 	.vr-vita-rose-head h3{
 		line-height: 40px;
-	}
-	.vr-gotu-kola-item-inr{
-		height: 370px;
 	}
 	.vr-all-natural-head h3 br{
 		display: none;
@@ -530,13 +536,6 @@ span.fl-txt-line-bg {
 	    padding-left: 20px;
 	    padding-right: 20px;
 	}
-	.vr-gotu-kola-item-wrp ul li {
-	    width: 100%;
-	    padding: 100px 10px 0;
-	}
-	.vr-gotu-kola-item-inr {
-	    height: auto;
-	}
 	.vr-gotu-kola-item-inr p {
 	    min-height: auto;
 	    padding-top: 15px;
@@ -553,6 +552,14 @@ span.fl-txt-line-bg {
 	}
 	.vr-vita-rose-head h3 {
 	    padding-bottom: 70px;
+	}
+	.vr-vita-rose-content ul li {
+	    padding-left: 40px;
+	}
+	.vr-vita-rose-content ul li span {
+		width: 40px;
+	    background-size: 25px 15px !important;
+	    background-position: left 8px top 22px;
 	}
 	
 
@@ -586,6 +593,18 @@ span.fl-txt-line-bg {
 	}
 	.vr-vita-rose-content ul li {
 	    padding-right: 15px;
+	}
+	.vr-vita-rose-content ul li p {
+	    min-height: 40px;
+	}
+	.vr-vita-rose-content ul li:nth-child(2) p {
+	    padding-top: 12px;
+	}
+	.vr-vita-rose-content ul li:nth-child(1) p {
+	    padding-top: 8px;
+	}
+	.vr-vita-rose-content ul li:nth-child(3) p {
+	    padding-top: 5px;
 	}
 
 }
