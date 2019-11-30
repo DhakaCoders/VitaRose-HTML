@@ -1835,6 +1835,9 @@ span.fl-txt-line-bg {
     .vr-secret-lies-head {
       padding: 12px 25px 22px;
   }
+  .vr-gotu-kola-item-wrp{
+    padding-top: 0;
+  }
 }
 
 @media (max-width:830px){
@@ -2152,7 +2155,7 @@ span.fl-txt-line-bg {
         padding: 45px 0 55px;
     }
     .vr-gotu-kola-item-wrp ul li {
-      padding: 130px 10px 0;
+      padding: 120px 10px 0;
   }
   .vr-vita-rose-content ul li span {
     background-position: left 12px top 20px;
