@@ -857,35 +857,50 @@ span.fl-txt-line-bg {
 .plr-tp-5{
     padding-top: 5px;
 }
-.ring-bg-5 {
+.sections-rgt-round-img-1 {
     position: absolute;
-    right: -240px;
-    top: -85px;
     z-index: 0;
+    right: -225px;
+    top: -115px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;
 }
-.ring-bg-6 {
+.sections-rgt-round-img-2 {
     position: absolute;
-    right: -190px;
-    bottom: 40px;
     z-index: 0;
+    right: -185px;
+    bottom: 50px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;
 }
-.ring-bg-7 {
+.sections-rgt-round-img-3 {
     position: absolute;
-    right: -205px;
-    top: -5px;
     z-index: 0;
+    right: -200px;
+    top: -15px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;
 }
-.ring-bg-8 {
+.sections-rgt-round-img-4 {
     position: absolute;
-    left: -232px;
-    top: -13px;
-    z-index: 0;
-}
-.ring-bg-9 {
-    position: absolute;
-    left: -210px;
-    bottom: -210px;
     z-index: -1;
+    left: -220px;
+    bottom: -140px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;
+}
+.sections-rgt-round-img-5 {
+    position: absolute;
+    z-index: -1;
+    left: -230px;
+    top: -5px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;
 }
 .vr-all-natural-sec-wrp {
     position: relative;
@@ -1624,11 +1639,11 @@ span.fl-txt-line-bg {
     .vr-all-natural-dsc {
         padding-right: 0;
     }
-    .ring-bg-5,
-    .ring-bg-6,
-    .ring-bg-7,
-    .ring-bg-8,
-    .ring-bg-9{
+    .sections-rgt-round-img-5,
+    .sections-rgt-round-img-4,
+    .sections-rgt-round-img-3,
+    .sections-rgt-round-img-2,
+    .sections-rgt-round-img-1{
         display: none;
     }
 
