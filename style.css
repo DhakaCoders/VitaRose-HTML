@@ -2154,6 +2154,9 @@ span.fl-txt-line-bg {
     .vr-gotu-kola-item-wrp ul li {
       padding: 130px 10px 0;
   }
+  .vr-vita-rose-content ul li span {
+    background-position: left 12px top 20px;
+}
 
 }
 
