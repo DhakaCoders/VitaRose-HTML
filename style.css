@@ -1162,7 +1162,8 @@ span.fl-txt-line-bg {
     line-height: 24px;
 }
 
-.sections-lft-round-img-ctlr{
+.sections-lft-round-img-ctlr,
+.sections-rgt-round-img-ctlr{
     position: relative;
     overflow: hidden;
 }
@@ -1175,12 +1176,23 @@ span.fl-txt-line-bg {
     height: 426px;
     background-size: 100% 100%!important;
 }
-.sections-lft-round-img img{
+.sections-rgt-round-img{
+    position: absolute;
+    z-index: 1;
+    right: -213px;
+    bottom: 620px;
+    width: 426px;
+    height: 426px;
+    background-size: 100% 100%!important;  
+}
+.sections-lft-round-img img,
+.sections-rgt-round-img img{
     width: 100%;
 }
 .fl-pkg-section,
 .fl-ftr-top-sec,
-.hundred-percentage-sec-1{
+.hundred-percentage-sec-1,
+.vr-all-natural-sec-wrp{
     position: relative;
     z-index: 2;
 }
@@ -1799,6 +1811,9 @@ span.fl-txt-line-bg {
     }
     .fl-risk-free-des-rgt-img img{
         margin-top: 0;
+    }
+    .sections-rgt-round-img{
+      display: none;
     }
 }
 
