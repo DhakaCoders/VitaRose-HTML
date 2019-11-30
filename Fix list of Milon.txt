@@ -55,3 +55,10 @@ Responsive
 	img ta haray geche
 3. https://www.screencast.com/t/FA2a9vPJ
 	575px a ai img ta aktu choto kore yellow ar width ta komay daw.
+
+
+
+new 
+------------------
+1.https://www.screencast.com/t/WO9lLXnV8
+	img kata pore

@@ -1815,6 +1815,12 @@ span.fl-txt-line-bg {
     .sections-rgt-round-img{
       display: none;
     }
+    .hundred-percentage-sec-1 {
+        padding-bottom: 70px;
+    }
+    .sections-lft-round-img{
+      display: none;
+    }
 }
 
 @media (max-width:830px){
