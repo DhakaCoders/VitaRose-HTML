@@ -266,7 +266,7 @@ h4 {
 
 
 @media(max-width: 767px){
-  .hide-xs{
+    .hide-xs{
         display: none!important;
     }
     .show-xs{
