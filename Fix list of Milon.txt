@@ -62,3 +62,11 @@ new
 ------------------
 1.https://www.screencast.com/t/WO9lLXnV8
 	img kata pore
+2. https://www.screencast.com/t/nVlWBuXnwB
+	991 px gap ta r aktu besi daw
+3. https://www.screencast.com/t/N0PHIUCKEtF
+	991px ai gap komate hobe
+4. https://www.screencast.com/t/SWJok4NrtrXE
+	desktop ai atar line height 1 daw. px a dile bar bar line height responsive korte hobe.
+5. https://www.screencast.com/t/6zk4mxIEe
+	data-sec nai. lazy class nai. amon aro besh koyjaygay ache. aktu valo kroe check kore dekhio
