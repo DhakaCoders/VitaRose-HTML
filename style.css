@@ -955,6 +955,9 @@ span.fl-txt-line-bg {
 .fl-risk-free-des-sec-1{
     padding-bottom: 40px;
 }
+.hundred-percentage-sec-1 .fl-des-normal strong{
+  font-weight: 700;
+}
 .fl-faq-section{
     padding: 0 28px 40px;
     position: relative;
@@ -1653,6 +1656,9 @@ span.fl-txt-line-bg {
     .hh-accordion-des-grd-item{
         min-height: 373px;
     }
+    .fl-shiny-hair-block-2-bq p br{
+      display: none;
+    }
 } 
 
 @media(max-width: 1023px){
@@ -1946,6 +1952,9 @@ span.fl-txt-line-bg {
     .hh-accordion-title:after{
         right: 29px;
     }
+    .special-offer-dsc{
+      padding-right: 220px;
+    }
 }
 
 @media(max-width: 639px){
@@ -1967,6 +1976,10 @@ span.fl-txt-line-bg {
         border: 3px solid #089147;
         border-radius: 15px;
     }
+    .special-offer-dsc{
+      padding-right: 180px;
+    }
+
 }
  
 @media(max-width: 575px){
@@ -2069,6 +2082,9 @@ span.fl-txt-line-bg {
         padding-left: 15px;
         padding-right: 15px;
     }
+    .special-offer-dsc{
+      padding-right: 110px;
+    }
 
 }
 
@@ -2158,10 +2174,13 @@ span.fl-txt-line-bg {
     }
     .vr-gotu-kola-item-wrp ul li {
       padding: 120px 10px 0;
-  }
-  .vr-vita-rose-content ul li span {
-    background-position: left 12px top 20px;
-}
+    }
+    .vr-vita-rose-content ul li span {
+      background-position: left 12px top 20px;
+    }
+    .special-offer-dsc{
+      padding-right: 60px;
+    }
 
 }
 
@@ -2172,13 +2191,18 @@ span.fl-txt-line-bg {
     .vr-vita-rose-head h3 {
         padding-bottom: 110px;
     }
-
+    .special-offer-dsc{
+      padding-right: 20px;
+    }
 }
 
 
 @media(max-width: 359px){
     .fl-shipping h4 {
         font-size: 13px;
+    }
+    .special-offer-dsc{
+      padding-right: 0;
     }
 }
 
