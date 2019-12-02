@@ -76,6 +76,7 @@
     url('assets/fonts/Barlow-ExtraBold/barlow-extrabold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: 'BarlowCondensed-Bold';
@@ -1057,6 +1058,7 @@ span.fl-txt-line-bg {
 .hh-accordion-des{
     color: #fff;
     padding-bottom: 40px;
+    display: none;
 }
 .hh-accordion-des-grd-ctlr ul{
     margin: 0 -10px;
