@@ -1578,6 +1578,9 @@ span.fl-txt-line-bg {
     h4 {
       font-size: 35px
     }
+    p br{
+      display: none;
+    }
     .special-offer-dsc {
         padding: 45px 455px 25px 0;
     }
